@@ -1,38 +1,198 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #f5f8fa;
+  font-family:"Poppins light";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.tblm{
+  margin-left:30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.filter .text-filter .form-control .undefined{
+  height:48px;
+  width:400px;
+  border-radius:50px;
+  /* border: 1px ; */
+  font-family: poppins light;
+  margin-top:15px;
+  margin-left:40px;
+  /* box-shadow: 1px 2px 2px 2px #888888; */
+color:#888888;
+  font-size: 16.4px;
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  background-color: #F5F8FA;
+  font-family:"Poppins light";
+  position: absolute;
+  left:294px;
+  width: 100%;
+  right:0;
+  opacity: 0.9;
+  height:87px;
+}
+.searchbar{
+  height:48px;
+  width:400px;
+  border-radius:45px;
+  border: 0.5px solid rgb(182, 174, 174);
+  /* border: 1px ; */
+  font-family: poppins light;
+  margin-top:15px;
+  margin-left:40px;
+  /* box-shadow: 1px 2px 2px 2px #888888; */
+color:#888888;
+  font-size: 16.2px;
 }
 
-@keyframes App-logo-spin {
+
+
+.form-control:active, .form-control:focus{
+  
+  /* box-shadow: 1px 2px 10px 2px #888888; */
+}
+
+.sidebar{
+  /* background-image: linear-gradient(to right,   ,aliceblue ); */
+  /* background-color: #042ed4; */
+
+  background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 800px;
+  opacity: 0.9;
+  border-radius: 0px;
+  /* float:left; */
+  width:280px;
+  
+}
+.card{
+  /* width:250px; */
+  padding:25px;
+  border-radius: 10px;
+    box-shadow: 1px 2px 7px 2px #888888;
+    font-family: poppins light;
+    
+}
+.logo{
+  background-color:#182848;
+  border-radius: 10px;
+  width: 200px;
+  position: relative;
+  font-size: 25px;
+  color:white;
+  top: 20px;
+  left:34px;
+  padding: 10px;
+}
+.btnn{
+  height: 47px;
+  border-radius: 30px;
+  background: #4b6cb7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #182848, #4b6cb7);
+  border:none;
+  font-family: poppins light;
+  margin-top: 20px;
+  margin-left:200px;
+}
+.hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 0px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 75px;
+
+
+}
+.hr2{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 0px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 38px;
+
+
+}
+
+.h_hr{
+  /* border-top: 1px solid #ccc; */
+  margin-left:3px;
+  margin-top:20px;
+}
+.d_links{
+  font-size: 17px;
+  color:white;
+  text-align: left;
+  position: relative;
+  left:35px;
+  top:35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 220px;
+}
+.bottom_links{
+  position: relative;
+  top:150px;
+  font-family: poppins light;
+}
+.active{
+  background-color:#182848;
+  /* font-size: 90px; */
+  
+}
+.links{
+  margin-top: 30px;
+  
+}
+.footer{
+  padding: 12px;
+  color:white;
+text-align: left;
+margin-left:-15px;
+background-color: #182848;
+border-radius: 10px;
+position: relative;
+top:15px;
+
+font-family: poppins light;
+
+}
+.position-main{
+  position: absolute;
+  right:0;
+  top:155px;
+  left:294px;
+  width: 100%;
+}
+ 
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(359deg);
   }
 }
+
+
+
+
+
+
+
+
