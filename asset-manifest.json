@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-dashboard/static/css/main.9b08047f.chunk.css",
+    "main.js": "/react-dashboard/static/js/main.b25769f1.chunk.js",
+    "main.js.map": "/react-dashboard/static/js/main.b25769f1.chunk.js.map",
+    "runtime-main.js": "/react-dashboard/static/js/runtime-main.962c6d9a.js",
+    "runtime-main.js.map": "/react-dashboard/static/js/runtime-main.962c6d9a.js.map",
+    "static/css/2.a333aad8.chunk.css": "/react-dashboard/static/css/2.a333aad8.chunk.css",
+    "static/js/2.533aa516.chunk.js": "/react-dashboard/static/js/2.533aa516.chunk.js",
+    "static/js/2.533aa516.chunk.js.map": "/react-dashboard/static/js/2.533aa516.chunk.js.map",
+    "index.html": "/react-dashboard/index.html",
+    "precache-manifest.52d711f0e5fe672a1a1ff65163048c7b.js": "/react-dashboard/precache-manifest.52d711f0e5fe672a1a1ff65163048c7b.js",
+    "service-worker.js": "/react-dashboard/service-worker.js",
+    "static/css/2.a333aad8.chunk.css.map": "/react-dashboard/static/css/2.a333aad8.chunk.css.map",
+    "static/css/main.9b08047f.chunk.css.map": "/react-dashboard/static/css/main.9b08047f.chunk.css.map",
+    "static/js/2.533aa516.chunk.js.LICENSE.txt": "/react-dashboard/static/js/2.533aa516.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.962c6d9a.js",
+    "static/css/2.a333aad8.chunk.css",
+    "static/js/2.533aa516.chunk.js",
+    "static/css/main.9b08047f.chunk.css",
+    "static/js/main.b25769f1.chunk.js"
+  ]
+}
